@@ -1,0 +1,123 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    background-color: #F7F9FC;
+}
+
+h1 {
+    color: #575F7D;
+    text-align: center;
+}
+
+h2 {
+    color: #7ECE90;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card-white {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+.card-white:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.img-circle {
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    /* kill the bullet points */
+    padding-left: 0px;
+    /* kill remaining padding left */
+}
+
+.list-inline>li {
+    display: inline;
+    /* change list item behavior to inline */
+    padding: 0px 20px;
+    /* add som left/right padding between list items */
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Style the link as a button */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+.social-media {
+    color: #6C73E2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media:hover {
+    color: #575F7D;
+}
+
+@media (max-width: 960px) {
+
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 700px;
+    }
+    .img-circle {
+        width: 200px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 500px;
+    }
+    .img-circle {
+        width: 150px;
+    }
+}
+
+@media (max-width: 540px) {
+
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 300px;
+    }
+    .img-circle {
+        width: 100px;
+    }
+}
